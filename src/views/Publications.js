@@ -9,7 +9,7 @@ const Publications = () => {
 
   return (
     <div id="publications-content-wrapper">
-      <ScrollToLink />
+      <ScrollToLink to="/Publications"/>
       <h1 className="major" id="publications">Publications</h1>
       <h3>Coin Telegraph</h3>
       <p>
@@ -27,7 +27,7 @@ const Publications = () => {
           https://cointelegraph.com/news/korea-s-unique-ability-to-make-its-reverse-ico-fad-permanent-expert-take
         </a>
       </p>
-      <iframe title="Substack Publications" src="https://usefulcoin.substack.com/embed" width="100%" height="320" style={{border:0, background: "rgba(255, 255, 255, 0)"}} frameborder="0" scrolling="no"></iframe>
+      <iframe title="Substack Publications" src="https://usefulcoin.substack.com/embed" width="100%" height="320" style={{border:0, background: "rgba(255, 255, 255, 0)"}} frameBorder="0" scrolling="no"></iframe>
     </div>
   );
 }

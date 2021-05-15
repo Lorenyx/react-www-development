@@ -7,14 +7,14 @@ import {
 function Blog() {
   useEffect(
     () => {
-      animateScroll.scrollToTop()
-      window.mediumWidget()
+      animateScroll.scrollToTop();
+      // window.mediumWidget(); //TODO update this method, possivle clientWidth Error
     }
   );
   
   return (
     <div id="blog-content-wrapper">
-      <ScrollToLink />
+      <ScrollToLink to="/Blog"/>
       <h1 className="major" id="blog">Blog</h1>
       <p>The <a href="https://medium.com/usefulcoin" target="_medium">Medium Publication</a> occasionally reflects our views on industry or some aspect of an engagment. Take a look.</p>
       <div id="medium-widget"></div>

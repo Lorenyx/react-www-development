@@ -17,7 +17,7 @@ const Talent = () => {
 
   return (
     <div id="talent-content-wrapper">
-      <ScrollToLink />
+      <ScrollToLink to="/Link"/>
       <h1 className="major" id="talent">Talent</h1>
       <p>The talent behind Useful Coin is exceptional. Munair and Mason are two of the most compassionate and thoughtful geeks you'd ever want to collaborate with.</p>
       <span className="image">
