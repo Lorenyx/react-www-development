@@ -9,7 +9,7 @@ const Engagements = () => {
 
   return (
     <div id="engagements-content-wrapper">
-      <ScrollToLink />
+      <ScrollToLink to="/Engagements"/>
       <h1 className="major" id="engagements">Engagements</h1>
       <p>All-hands-on-deck <b>engagements</b> lasting three to nine months are our specialty. Although we
          draft and execute thoughful marketing strategies, write impactful press releases, exhibit at major
