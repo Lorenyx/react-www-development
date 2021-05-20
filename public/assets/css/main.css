@@ -3729,7 +3729,7 @@ input, select, textarea {
 
 					#nav ul.links li a:hover {
 						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.1);
+						box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.2);
 					}
 
 				#nav ul.links li.active {
@@ -3740,9 +3740,9 @@ input, select, textarea {
 						color: #1e252d;
 					}
 
-						#nav ul.links li.active a:hover {
+						/* #nav ul.links li.active a:hover {
 							color: #f63d06 !important;
-						}
+						} */
 
 		#nav ul.icons {
 			-moz-flex-grow: 0;
